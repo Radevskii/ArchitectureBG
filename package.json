@@ -1,0 +1,26 @@
+{
+  "name": "course-work",
+  "version": "1.0.0",
+  "description": "small web project",
+  "main": "index.js",
+  "scripts": {
+    "test": "try"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Radevskii/ArchitectureBG"
+  },
+  "keywords": [
+    "riverdale"
+  ],
+  "author": "Rado6i6arkata",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-lint": "^1.4.0"
+  }
+}
