@@ -2,15 +2,17 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-color: rgba(100, 105, 100, 0.4); }
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: rgba(100, 105, 100, 0.4);
+  font-family: "Roboto", sans-serif; }
 
 .building {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(220, 220, 220, 0.7);
-  margin: 2rem; }
+  margin: 2rem;
+  border-radius: 4px; }
 
 .building-img {
   min-width: 20rem;
@@ -20,11 +22,33 @@ section {
 .building-img img {
   min-width: 20rem;
   max-width: 20rem;
+  min-height: 12rem;
+  max-height: 12rem;
   -o-object-fit: cover;
      object-fit: cover;
-  display: block; }
+  display: block;
+  border-radius: 4px 4px 0 0; }
 
-.building-img::before {
-  width: 20rem;
-  height: 20rem;
-  position: absolute; }
+.building-name {
+  margin-bottom: 12px; }
+
+.building-short_info {
+  padding: 20px;
+  line-height: 1.5em;
+  align-self: flex-start; }
+
+.building-full_info {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #555;
+  color: white;
+  padding: .5em 2em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: "Roboto", sans-serif;
+  float: right;
+  border-radius: 4px;
+  transition: 0.2s transform; }
+
+.building-full_info:hover {
+  transform: scale(1.1); }
