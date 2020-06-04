@@ -23,7 +23,7 @@ li a, .dropbtn {
   color: #f4f4f4;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: underline;
+	text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -76,6 +76,16 @@ header{
 	padding: 20px;
 }
 
+@media screen and(max-width: 768px){
+	section{
+		flex-direction: column-reverse;
+	}
+	.quote{
+		padding: 1.5rem;
+		line-height: 1.3em;
+	}
+}
+
 section {
 	display: flex;
 	justify-content: space-between;
@@ -85,7 +95,12 @@ section {
 		font-style: italic;
 		font-size: 30px;
 		margin: 0 auto;
+		line-height: 1.3em;
 	}
+}
+
+nav{
+	font-family: "Roboto", sans-serif;
 }
 
 @-webkit-keyframes "fade" {
