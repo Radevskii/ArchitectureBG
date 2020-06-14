@@ -1,7 +1,6 @@
 # ArchitectureBG
 This is a small course work for WEBDev class. I made a not very good looking site, but i tried my best(or i think I did).
-Small WEB project(Course Work)
-This repo shows my web design project. In it I briefly present some of the characters in the TV series Lucifer.
+The idea of this site is to show people what kind of structures are moderne these days. Here you can find the most inovative architects for our century. 
 
 How to run:
 - `npm i install`
