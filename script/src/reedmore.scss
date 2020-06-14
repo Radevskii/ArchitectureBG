@@ -1,0 +1,41 @@
+.building-main_photo {
+	align-items: center;
+	img {
+		width: 520px;
+		height: 320px;
+	}
+}
+
+@media screen and(max-width: 1000px){
+	#fallingwater{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.building-text{
+			max-width: 720px;
+			padding-left: 0;
+		}
+	}
+}
+ @media screen and(min-width: 1001px ){
+	 .building-text{
+	 	padding-left: 0;
+	 	max-width: 720px;
+	 	line-height: 1.5em;
+	 }
+ }
+ 
+#fallingwater {
+	display: flex;
+	align-items: flex-start;
+	.building-text{
+		margin: 20px;
+		max-width: 500px;
+	}
+}
+
+.building-text{
+	padding-left: 20em;
+	max-width: 720px;
+	line-height: 1.5em;
+}
