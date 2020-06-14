@@ -10,4 +10,4 @@ Main page:
 ![GitHub Logo](/mian-page.png)
 
 
-You can visit the site by clicking [here!](https://gabrielgenkov.github.io/WebProjhttps://radevskii.github.io/ArchitectureBG/dist/index.html)
+You can visit the site by clicking [here!](https://radevskii.github.io/ArchitectureBG/dist/index.html)
