@@ -7,7 +7,7 @@ How to run:
 - `npm i install`
 
 Main page:
-![GitHub Logo](/main.png)
+![GitHub Logo](/main-page.png)
 
 
 You can visit the site by clicking [here!](https://gabrielgenkov.github.io/WebProj/main/html/index.html)
